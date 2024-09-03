@@ -1,0 +1,28 @@
+.container {
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start; 
+    padding: 20px; 
+    box-sizing: border-box; 
+  }
+  
+  .title {
+    text-align: center;
+    margin-top: 20px; 
+    margin-bottom: 30px; 
+    color: red;
+  }
+  
+  .text {
+    text-align: center; 
+    max-width: 800px; 
+    width: 100%; 
+    margin: 0 auto; 
+    font-size: larger;
+  }
+  
+  
