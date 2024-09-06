@@ -1,8 +1,18 @@
+import Image from "next/image";
 import styles from '@/app/maracana/maracana.module.css';
+
 
 export default function Maracana() {
   return (
     <div className={styles.container}>
+    <div className={styles.imageContainer}>
+        <Image
+          src="/maracana2.jpg" 
+          alt="maracana"
+          width={800} 
+          height={400} 
+        />
+      </div>
       <h1 className={styles.title}>Maracanã</h1>
       <p className={styles.text}>
         O Maracanã é mais do que apenas um estádio para o Flamengo; é um verdadeiro templo do futebol onde a história do clube se entrelaça com a de um dos estádios mais icônicos do mundo. 

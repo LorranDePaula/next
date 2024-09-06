@@ -4,7 +4,15 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <div className={styles.all}>
-      <h1 className={styles.tittle}>Flamengo</h1>
+      <div className={styles.imageContainer}>
+        <Image
+          src="/flamengo-15.svg" 
+          alt="Logo Flamengo"
+          width={300} 
+          height={300} 
+        />
+      </div>
+      <h1 className={styles.tittle}>Clube de Regatas do Flamengo</h1>
 
       <p className={styles.subtittle}>
         O Clube de Regatas do Flamengo, conhecido simplesmente como Flamengo, é uma das instituições mais icônicas e veneradas do futebol brasileiro e sul-americano. 

@@ -10,6 +10,11 @@ export default function Header(){
                     <li><Link href="/about">Titulos</Link></li>
                     <li><Link href="/maracana">Maracana</Link></li>
                     <li><Link href="/torcida">Torcida</Link></li>
+                    <li><Link href="/useClickCounterPage">Click</Link></li>
+                    <li><Link href="/useTogglePage">Toggle</Link></li>
+                    <li><Link href="/useLocalStoragePage">Local Storage</Link></li>
+                    <li><Link href="/useCounterPage">Counter</Link></li>
+                    <li><Link href="/useDocumentTittlePage">DocumentTittle</Link></li>
                 </ul>
             </nav>
         </header>
